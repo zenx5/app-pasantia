@@ -1,0 +1,286 @@
+.navbar{
+    background:#232931;
+}
+
+.navbar .navbar-brand{
+    color:#ededed;
+}
+
+.navbar  ul li a{
+    color:#ededed;
+    font-size: 18px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.navbar  ul li a:hover{
+    opacity: .6;
+    color:#ff6d00;
+}
+
+.navbar ul li a fa-user{
+    color:#fff;
+}
+
+.navbar ul li a fa-user:hover{
+    opacity: .6;
+    color:#ff6d00;
+}
+
+.slider h3{
+    font-family: 'Questrial', sans-serif;
+    color:#ff6d00;
+    font-weight: bold;
+}
+
+.slider p{
+    font-family: 'Questrial', sans-serif;
+    color:#fff;
+    font-size: 19px;
+}
+
+.login{
+  margin-top:100px;
+  margin-bottom: 100px;
+}
+
+.login h4{
+    font-family: 'Questrial',sans-serif;
+}
+
+.login .icono{
+    background:#808080;
+    width:60px;
+    height:60px;
+    margin: auto;
+    border-radius:150px;
+}
+
+.login .fa-user{
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.login .card{
+    background: #fafafa;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.registro .card{
+    background: #fafafa;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pricing-header{
+    font-family: 'Questrial', sans-serif;
+}
+
+.card-1{
+    font-family: 'Questrial', sans-serif;
+    transition: .5s;
+}
+
+.card-1:hover{
+  -webkit-transform:scale(1.06);
+  -ms-transform:scale(1.06);
+  -o-transform:scale(1.06);
+  transform: scale(1.06);
+  transition: .5s;
+}
+
+.card-1 .card-header{
+  background: #e95846;
+  padding: 20px 0;
+  color: #FFF;
+  
+}
+
+.card-1 .card-body{
+    background: #232931;
+}
+
+.card-1 .btn{
+    background: #f1d18a;
+    color: #232931;
+}
+
+.card-1 h1{
+    color:#FFF;
+}
+
+.carrito{
+    font-family: 'Questrial', sans-serif;
+}
+
+.table-cart{
+	border-radius: 1em;
+	margin-bottom: 30px;
+	padding: 1em;
+}
+
+.carrito-detalle{
+    
+    border-radius: 1em;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.carrito-detalle td{
+    color:#424242;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.detalle-pedido{
+    background:#eeeeee; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #eeeeee;
+    border-radius: 1em;
+    padding: 1em;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.detalle-pedido tr>td{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detalle-pedido a .fa-cc-paypal{
+    color:#169bd7;
+}
+
+.detalle-pedido a .fa-credit-card{
+    color:#faaa13;
+}
+
+
+.informacion-ordenes thead{
+    background: #4B515D;
+}
+
+.informacion-ordenes thead>tr>th{
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informacion-ordenes tbody>tr>td{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.informacion-servicio thead{
+    background: #4B515D;
+}
+
+.informacion-servicio thead>tr>th{
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informacion-servicio tbody>tr>td{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.informacion-usuarios thead{
+    background: #4B515D;
+}
+
+.informacion-usuarios thead>tr>th{
+    color:#fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.informacion-usuarios tbody>tr>td{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.slider-register{
+    width:100%;
+    height:60%;
+    background: url('../img/Analogy.jpg');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    font-family: 'Questrial', sans-serif;
+    padding: 50px;
+}
+
+.send-email{
+    font-family: 'Questrial', sans-serif;
+}
+
+.info-precio{
+    font-family: 'Questrial', sans-serif;
+    color:#808080;
+}
+
+.card-email{
+    transition: .5s;
+}
+
+.card-email:hover{
+    -webkit-transform:scale(1.06);
+  -ms-transform:scale(1.06);
+  -o-transform:scale(1.06);
+  transform: scale(1.06);
+  transition: .5s;
+}
+
+.page-footer{
+    background:#ededed;
+    font-family: 'Questrial', sans-serif;
+}
+
+.page-footer h6,p{
+    color:#232931;
+}
+.page-footer div p>a{
+    color:#232931;
+    transition:.5s;
+}
+.page-footer div p>a:hover{
+    color:#ff6d00;
+    transition:.5s;
+}
+
+.page-footer ul{
+    color:#000;
+}
+
+/*STRIPE*/
+.StripeElement {
+    background-color: white;
+    height: 40px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
