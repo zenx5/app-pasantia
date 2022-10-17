@@ -32,8 +32,8 @@ class PaypalController extends BaseController
 	{
 		// setup PayPal api context
 		//$paypal_conf = \Config::get('paypal');
-		$this->_api_context = new ApiContext(new OAuthTokenCredential('ARjr7RrDMHfsobnilc7QmnLezaC38P2ijgrkapd7P_cr0Vnt97hY_17zEC95nq137AnEodmvq4i8ETQb','EAM7wSALZbtuOS6tIiVAcIomG_58yMeiGDsUhv6gm7wCISjMtvOculd2pi5MWfKSoHmmC68Pfmv8R9Lm'
-        ));
+        
+		$this->_api_context = new ApiContext(new OAuthTokenCredential( env('PAYPAL_CLIENT_ID'), env('PAYPAL_SECRET') ));
 		$this->_api_context->setConfig(array('mode' => 'sandbox', 'http.ConnectionTimeOut' => 30,'log.LogEnabled' => true,'log.FileName' => storage_path() . '/logs/paypal.log','log.LogLevel' => 'FINE'));
 	}
 
